@@ -1,0 +1,16 @@
+
+{
+"LOG_IN": ".shop-menu > .nav > :nth-child(4) > a",
+"VISIBLE": ".login-form > h2",
+"username":".login-form > form > [type='email']",
+"password":"[type='password']",
+"BOTON_LOGIN":".login-form > form > .btn",
+"ALERT_LOGIN":".login-form > form > p",
+"LOG_OUT":".shop-menu > .nav > :nth-child(4) > a"
+
+
+
+}
+
+
+
