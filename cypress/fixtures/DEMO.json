@@ -1,0 +1,20 @@
+
+{
+   "EmailAdress_SIGN_IN" : "pablo222@gmail.com",
+   "Password_SIGN_IN" : "losloros222",
+   "EmailAdress_FAKE" : "nada@gmail.com",
+   "Password_FAKE" : "123",
+
+   "name1": "ESTE USUARIO ES INCORRECTO",
+   "username1": "pablo222@gmail.com",
+   "password1": "2222",
+   "expected1": "Your email or password is incorrect!",
+
+   "name2": "ESTE USUARIO ES CORRECTO",
+   "username2": "pablo222@gmail.com",
+   "password2": "losloros222",
+   "expected2": "CORRECTOS"
+
+}
+
+

@@ -1,0 +1,46 @@
+{
+
+  "BOTON_Contains":"Signup / Login",
+  "username":
+  {
+     "textBoxInputEmail": "[data-qa='login-email']",
+     "datos":{
+        "valido": "pablo222@gmail.com",
+        "invalido": "nada22@gmail.com"
+     } 
+
+  },
+
+  "password":
+  {
+     "textBoxInputPassword": "[data-qa='login-password']",
+     "datos":{
+        "valido": "losloros222",
+        "invalido": "12312"
+     } 
+
+  },
+
+
+
+  "botonLOGIN": "[data-qa='login-button']", 
+  "Contain_BotonLogOut": "Logout",
+  "Username_orange": "[placeholder='Username']",
+  "Username_Password": "[placeholder='Password']",
+  "Boton_Orange_Submit":"[type='submit']",
+  "user_orange": "Admin",
+  "user_password": "admin123"
+
+  
+
+
+
+
+
+
+
+
+
+
+
+}

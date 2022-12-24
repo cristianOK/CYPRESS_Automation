@@ -1,0 +1,39 @@
+{
+  "BOTON_Contains":"Signup / Login",  
+  "TEXTOSIGNUP": "ENTER ACCOUNT INFORMATION",  
+  "NAME__": "[data-qa='signup-name']",
+  "EMAIL__": "[data-qa='signup-email']",
+  "BOTONSIGNUP": "[data-qa='signup-button']",
+  "checkBoxGENERO": "[id='id_gender1']",
+  "PASSWORDSIGNUP": "[data-qa='password']",
+  "DATEBIRGHT": "[id='days']",
+  "DATEMONTH": "[id='months']",
+  "DATEYEAR": "[id='years']",
+  "INFORMATION_ADRESS": "h2[class='title text-center']",
+  "FIRST_NAME": "[data-qa='first_name']",
+  "LAST_NAME": "[data-qa='last_name']",
+  "COMPANY": "[data-qa='company']",
+   "ADRESS":"[data-qa='address']",
+   "ADRESS2":"[data-qa='address2']",
+   "COUNTRY":"[id='country']",
+   "STATE":"[data-qa='state']",
+   "CITY":"[data-qa='city']",
+   "CP":"[data-qa='zipcode']",
+   "MOBILE":"[data-qa='mobile_number']",
+   "BOTON_CREAR":"[data-qa='create-account']",
+   "MESSAGE_EXITOSO":"Congratulations! Your new account has been successfully created!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

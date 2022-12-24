@@ -4,7 +4,12 @@
   "description": "PRUEBAS AUTOMATIZADAS DEL SISTEMA DE COMPRAS DE LA TIENDA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/location/ASERTION_BDD.cy.js",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/location/ASERTION_BDD.cy.js --record --key 018fffd1-f687-4a50-9a39-869fab5d809f",
+    "cypress:BrowserStack": "browserstack-cypress run --sync --spec cypress/e2e/location/Prubeas_HTML.cy.js",
+    "cypress:open:mobile": "cypress open --config viewportWidth=375,viewportHeight=667",
+    "cypress:run:mobile": "cypress run --config viewportWidth=375,viewportHeight=667"
   },
   "keywords": [
     "QA",
@@ -16,5 +21,12 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^11.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristianOK/CYPRESS_Automation"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.3"
   }
 }

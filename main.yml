@@ -1,0 +1,15 @@
+name: CYpress TEST
+on: [push]
+jobs:
+    cypress-run:
+    name: cypress run
+    runs-on: windows-latest
+    steps:
+       - name: CRISTIAN
+         uses: actions/checkout@v2
+
+         name: LOGIN
+         uses: cypress-io/github-actions@v4
+         with:
+           spec: cypress\e2e\QATOLLS.cy.js
+          
